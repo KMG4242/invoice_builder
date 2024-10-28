@@ -1,5 +1,6 @@
-import ReactPDF from '@react-pdf/renderer'
 import styles from './styles'
+// @ts-ignore
+import ReactPDF = require('@react-pdf/renderer')
 
 const compose = (classes: string): ReactPDF.Styles => {
   const css: ReactPDF.Styles = {
